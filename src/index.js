@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SpreadOperator from './examples/SpreadOperator';
+import Const from './examples/Const';
+import Class from './examples/Class';
+import ArrowFunction from './examples/ArrowFunction';
+import InstanceExtension from './examples/InstanceExtension';
+import DestructuringAssignment from './examples/DestructuringAssignment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <DestructuringAssignment />
   </React.StrictMode>
 );
 
