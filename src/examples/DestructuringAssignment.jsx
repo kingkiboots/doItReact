@@ -1,6 +1,9 @@
 import React from 'react'
+import ExportPractice, {CONST_VALUE, MyClass} from './ExportPractice';
 
 const DestructuringAssignment = () => {
+    const con = CONST_VALUE;
+    const mc = MyClass;
     var list = [0,1,6,7,8,9];
     var [
         item1,
